@@ -1,0 +1,104 @@
+export type DrinkAPIResponse = {
+  drinks: Drink[];
+};
+
+export type TransformedDrink = {
+  id: number;
+  name: string;
+  category: string;
+  alternateName: string;
+  alcohol: string;
+  drinkThumb: string;
+  glass: string;
+  iba: string;
+  video: string;
+  instructions: string;
+  ingredient1: string;
+  ingredient2: string;
+  ingredient3: string;
+  ingredient4: string;
+  ingredient5: string;
+  ingredient6: string;
+  ingredient7: string;
+  ingredient8: string;
+  ingredient9: string;
+  ingredient10: string;
+  ingredient11: string;
+  ingredient12: string;
+  ingredient13: string;
+  ingredient14: string;
+  ingredient15: string;
+  measure1: string;
+  measure2: string;
+  measure3: string;
+  measure4: string;
+  measure5: string;
+  measure6: string;
+  measure7: string;
+  measure8: string;
+  measure9: string;
+  measure10: string;
+  measure11: string;
+  measure12: string;
+  measure13: string;
+  measure14: string;
+  measure15: string;
+};
+/**
+ * Drink object type.
+ */
+export type Drink = {
+  dateModified: string;
+  idDrink: number;
+  strAlcoholic: string;
+  strCategory: string;
+  strCreativeCommonsConfirmed: string;
+  strDrink: string;
+  strDrinkAlternate: string;
+  strDrinkThumb: string;
+  strGlass: string;
+  strIBA: string;
+  strImageAttribution: string;
+  strImageSource: string;
+  strIngredient1: string;
+  strIngredient2: string;
+  strIngredient3: string;
+  strIngredient4: string;
+  strIngredient5: string;
+  strIngredient6: string;
+  strIngredient7: string;
+  strIngredient8: string;
+  strIngredient9: string;
+  strIngredient10: string;
+  strIngredient11: string;
+  strIngredient12: string;
+  strIngredient13: string;
+  strIngredient14: string;
+  strIngredient15: string;
+  strInstructions: string;
+  strInstructionsDE: string;
+  strInstructionsES: string;
+  strInstructionsFR: string;
+  strInstructionsIT: string;
+  "strInstructionsZH-HANS": string;
+  "strInstructionsZH-HANT": string;
+  strMeasure1: string;
+  strMeasure2: string;
+  strMeasure3: string;
+  strMeasure4: string;
+  strMeasure5: string;
+  strMeasure6: string;
+  strMeasure7: string;
+  strMeasure8: string;
+  strMeasure9: string;
+  strMeasure10: string;
+  strMeasure11: string;
+  strMeasure12: string;
+  strMeasure13: string;
+  strMeasure14: string;
+  strMeasure15: string;
+  strTags: string;
+  strVideo: string;
+};
+
+
